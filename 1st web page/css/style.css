@@ -1,0 +1,368 @@
+
+/* navbar styling Str  */
+
+
+
+
+
+.navbar-style{
+    background-image: url(../images/Fst-Bnr.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.navbar-style .navbar{
+    background-color: rgba(0, 0, 0, 0.151);
+}
+
+.navbar-style .navbar-brand .img-fluid{
+    width: 130px;
+    transform: scale(1.5) ;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar-style .navbar-brand .img-fluid:hover{
+    transform: scale(2.2) ;
+    
+}
+
+.navbar-style .navbar-nav .nav-item{
+    color: black;
+    font-size: 22px;
+    transition: .4s ease-in-out;
+    margin-left: 20px;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    transform: scale(1) ;  
+}
+
+
+
+.navbar-style .navbar-nav .nav-item:hover{
+    color: rgb(197, 13, 50);
+    transform: scale(1.2) ;
+    
+}
+
+/* navbar styling end  */
+
+
+
+
+/* bnr styling Str  */
+
+
+.Bnr-text{
+    margin-top: 27%;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.Bnr-text h4{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+  
+
+}
+
+
+
+
+.Bnr-text h4 span{
+    color: rgb(173, 7, 40);
+}
+.Bnr-text h2{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    
+}
+.Bnr-text h2 span{
+    color: rgb(173, 7, 40);
+    
+}
+
+
+
+.Bnr-text p{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 110px;
+    
+
+}
+
+
+.Bnr-text p span{
+    color: rgb(173, 7, 40);
+    margin-left: 20px;
+     
+}
+
+
+
+h3{
+    color: darkcyan;
+    font-size: 40px;
+}
+
+
+
+.info-img{
+
+    width: 400px;
+    margin-right: 35px;
+    
+    
+    
+}
+
+
+.info-text p{
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    padding-right: 10px;    
+}
+
+.info-text p .span1{
+    font-size: 28px;
+    color: crimson;
+}
+
+.info-text p .span2{
+    color: crimson;
+}
+
+
+/* bnr styling end  */
+
+
+
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #007bff00;
+    border-color: #007bff00;
+}
+
+.row .col-4 .list-group .list-group-item{
+    background-color: rgba(0, 0, 0, 0.212);
+    margin: 14px;
+    color: rgb(255, 255, 255);
+    transition: all linear .6s ;
+    margin-left: 100px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+
+.row .col-4 .list-group .list-group-item:hover{
+    background-color: floralwhite;
+    color: black;
+}
+
+
+
+.row .col-8 .tab-content .tab-pane{
+    color: white;
+    margin-left: 100px;
+    font-size: 20px;
+    height: 350px;
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+.course{
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.text_progress .text_progressreport{
+    margin-left: 290px;
+    color: rgba(0, 0, 0, 0.521);
+}
+
+
+.prograss-chart .progress{
+    margin-left: 320px;  
+}
+
+
+
+
+.progress-border{
+    border-bottom: tomato 2px solid;
+    
+    margin-left: 600px;
+    margin-right: 100px;
+    
+}
+
+
+
+.progress .progress-bar1{
+    background-color: rgb(64, 179, 89);
+}
+.progress .progress-bar2{
+    background-color: tomato;
+}
+.progress .progress-bar3{
+    background-color: rgb(2, 189, 33);
+}
+.progress .progress-bar4{
+    background-color: rgb(255, 38, 0);
+}
+
+
+
+
+.prograss-chart .progress-bar_text{
+    margin-left: 340px;
+    color: white;
+    font-size: 20px;
+    
+    
+}
+
+
+
+
+
+.card-deck .card{
+    background-color: rgba(0, 0, 0, 0.377)
+    
+}
+
+.card-deck .card .card-img-top {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.card-deck .card-body{
+    color: white;
+}
+
+.card-deck .card-body .card-title{
+    text-align: center;
+    font-size: 32px;
+    color: crimson;
+}
+
+
+
+
+
+
+
+.btn{
+    color: turquoise;
+    font-size: 18px;
+}
+
+
+.card-header .btn{
+    border-bottom: tomato solid 2px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+
+
+
+
+.text-light1 .form-group {
+    color: white;
+    border-radius: 20px;
+}
+.text-light1 .form-group .form-control{
+    color: white;
+    border-radius: 20px;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.055);
+}
+
+.text-light1{
+    font-size: 20px;
+    margin-left: 30px 20px;
+    padding: 70px;
+    background-color: rgba(0, 0, 0, 0.199);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.modal-footer .btn{
+    background-color: rgb(228, 0, 0);
+    color: white;
+    border-radius: 40px;
+} 
+
+
+.container .card{
+    border: none;
+    outline: none;
+} 
+
+
+
+.card .card-header .btn{
+    color: rgb(20, 190, 220);
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.349);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.copyright-text{
+    color: rgb(161, 161, 161);
+    letter-spacing: 5px;
+    font-size: 20px;
+}
